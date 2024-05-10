@@ -1,4 +1,5 @@
 # HTML Advanced
+
 This project involves creating a webpage from scratch, based on a design file provided in Figma. The focus of this project is to build a solid foundation in HTML by crafting an HTML structure without any CSS styling.
 
 ## Learning Objectives
