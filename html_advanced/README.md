@@ -5,6 +5,21 @@ This project involves creating a webpage from scratch, based on a design file pr
 
 ## Learning Objectives
 
+### What is HTML
+
+### How to create an HTML page from a wireframe
+
+### What is a markup language
+
+### What is the DOM
+
+### What is an element / tag
+
+### What is an attribute
+
+### What the purpose of each HTML tag
+
+## Tasks
 
 ### Task 1
 Create the basic structure of an HTML page and construct the header based on a provided wireframe.
