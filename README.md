@@ -1,1 +1,1 @@
-# atlas-web-development
+# Atlas Web Development
