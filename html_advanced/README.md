@@ -69,3 +69,44 @@ Add a Main Element:
 
 Below the `<header>`, insert a `<main>` element to separate the main content of the webpage from the header.
 
+### Task 3
+Incorporate a quote block below the banner within the `<main>` section of the webpage. 
+
+Create a Section for the Quote:
+
+Within the `<main>` element, add a new `<section>` tag for the quote.
+
+Structure of the Quote Block:
+
+Inside the `<section>`, place a `<div>` that will contain all elements related to the quote.
+
+Add an `<img>` tag related to the quote.
+
+Use a `<blockquote>` tag for encapsulating the quoted text, ensuring it is different from other textual content.
+
+Provide a text tag (such as `<p>`) for the quote's author to attribute the quote properly.
+
+Include additional descriptive text `<p>`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
