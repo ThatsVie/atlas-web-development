@@ -33,7 +33,7 @@ In this project, when we structured the document with elements like `<header>`, 
 
 In HTML, an **element** consists of a start tag, an end tag, the content in between, and the attributes of the tag. A **tag** is used to create an element and marks the start and end of an element content like `<h1>` to `</h1>`, indicating header text.
 
-In **Task 2**, the `<header>` element contains several other elements such as `<nav>`, `<a>`, and `<img>`, demonstrating how tags are used to create structured and nested elements.
+In **Task 2**, the `<header>` element contains several other elements such as `<nav>`, `<a>`, and `<img>`. Tags are used to create structured and nested elements.
 
 ### What is an attribute?
 
@@ -49,7 +49,7 @@ In **Task 6**, we created an FAQ section. The HTML tags used in this task and th
 
 `<section>`: Groups related content, marking the FAQ area as a significant section of the webpage.
 
-`<h1>`: Serves as the main title for the FAQ section, helping users and search engines understand the content's focus.
+`<h1>`: Serves as the main title for the FAQ section.
 
 `<div>`: Acts as a flexible container for structuring the FAQs into rows and individual items, important for layout organization.
 
@@ -62,9 +62,7 @@ In **Task 6**, we created an FAQ section. The HTML tags used in this task and th
 ### Task 1
 Create the basic structure of an HTML page and construct the header based on a provided wireframe.
 
-HTML Skeleton: Start with the foundational HTML5 structure, which includes the `<!DOCTYPE html>` declaration, and the `<html>`, `<head>`, and `<body>` elements.
-
-Header Element:
+Start with the foundational HTML5 structure, which includes the `<!DOCTYPE html>` declaration, and the `<html>`, `<head>`, and `<body>` elements.
 
 Within the `<body>`, insert the `<header>` tag.
 
@@ -77,11 +75,7 @@ Navigation links: Three `<a>` tags that serve as navigation. These should be wra
 ### Task 2
 Enhance the header by adding a banner that includes multiple text and image elements. This task focuses on structuring content semantically within the header.
 
-Modify the Header:
-
 Inside the `<header>` tag, incorporate a `<section>` element to create a distinct banner area.
-
-Primary Content Block:
 
 Add a `<div>` containing:
 
@@ -89,13 +83,13 @@ A `<h1>` heading for the main title.
 
 A `<p>` tag for a catchy phrase or slogan.
 
-A `<button>` for a call to action, such as registration.
+A `<button>` for registration.
 
 Secondary Content Block:
 
 Use a `<h2>` heading for a secondary, supportive title.
 
-Include a `<div>` that houses four smaller blocks, each representing different features:
+Include a `<div>` that houses four smaller blocks. 
 
 An `<img>` tag 
 
@@ -103,18 +97,12 @@ A `<h3>` heading for the title of the feature.
 
 A `<p>` tag for a brief description
 
-Add a Main Element:
-
 Below the `<header>`, insert a `<main>` element to separate the main content of the webpage from the header.
 
 ### Task 3
 Incorporate a quote block below the banner within the `<main>` section of the webpage. 
 
-Create a Section for the Quote:
-
 Within the `<main>` element, add a new `<section>` tag for the quote.
-
-Structure of the Quote Block:
 
 Inside the `<section>`, place a `<div>` that will contain all elements related to the quote.
 
@@ -134,23 +122,17 @@ Create a new `<section>` element within the `<main>` element to contain all vide
 
 Include a `<h1>` heading at the start of the section to serve as the title of the video list, "Most Popular Tutorials."
 
-Video Blocks:
-
 For each video, create an `<div>` element that encapsulates all the details of the video.
 
 An `<img>` tag for the video's thumbnail, followed by a `<h2>` for the video's title.
 
 Add a `<p>` tag for a description of the video content.
 
-Author Information:
-
 Below the video description provide author details:
 
 Include an image of the author using an `<img>` tag.
 
 Use a `<h3>` tag for the author's name.
-
-Rating System:
 
 Create a rating display using a series of `<img>` tags, each representing a star.
 
@@ -159,15 +141,11 @@ Each star image has an appropriate alt attribute for accessibility, "1 star", "2
 Include additional text `<p>`
 
 ### Task 5
-Create a section showing membership options available at Smile School. This section presents each membership package with its benefits and a button for users to sign up.
-
-Section Setup:
+Create a section showing membership options available at Smile School.
 
 After the videos list section in the `<main>` element, add a new `<section>` for memberships.
 
 Include a `<h1>` heading at the start of this section to serve as the title, "Free Membership."
-
-Membership Blocks:
 
 Within this section, create a `<div>` to serve as a container for individual membership blocks.
 
@@ -177,20 +155,16 @@ Add an `<img>` tag
 
 Use a `<h2> `for the title of the membership package.
 
-Include a `<p>` tag for a brief description of what the membership offers.
+Include a `<p>` tag for a description of what the membership offers.
 
 Place a `<button>` for registering
 
 ### Task 6
 Add a FAQ section towards the end of the webpage, just before the footer.  This section will be structured in a two-row format with each row containing two questions.
 
-Create the FAQ Section:
-
 Add new `<section>` element within the `<main>` element of the webpage.
 
 Include a `<h1>` tag at the beginning of this section to serve as the main heading, labeled "F.A.Q."
-
-Organize the Content:
 
 Add a container `<div>` within the section to hold all FAQ items.
 
@@ -202,24 +176,20 @@ A `<h2>` for the question.
 
 A `<p>` for the answer.
 
-Note: CSS styling will be applied in future tasks to achieve the "row" layout visually. This task focuses on having the HTML structure  in place for such styling. The description mentions two rows containing two items each, laid out to be visually structured in future CSS enhancements.
+Note: CSS styling will be applied in the future to achieve the "row" layout visually. This task focuses on having the HTML structure in place for such styling.
 
 ### Task 7
 Implement a footer for the webpage.
-
-Footer Setup:
 
 Place the `<footer>` element directly after the `<main>` tag to ensure it is at the bottom of the webpage.
 
 Use a nested `<div>` structure within the footer to organize the content.
 
-Content Organization:
-
 The first `<div>` acts as a container for all footer content, facilitating future centering with CSS.
 
 Inside the container, include:
 
-An image. `<img>`
+An image `<img>`
 
 A block for social media icons, each wrapped in <a> tags for navigation.
 
