@@ -120,11 +120,28 @@ Each star image has an appropriate alt attribute for accessibility, "1 star", "2
 
 Include additional text `<p>`
 
+### Task 5
+Create a section showing membership options available at Smile School. This section presents each membership package with its benefits and a button for users to sign up.
 
+Section Setup:
 
+After the videos list section in the `<main>` element, add a new `<section>` for memberships.
 
+Include a `<h1>` heading at the start of this section to serve as the title, "Free Membership."
 
+Membership Blocks:
 
+Within this section, create a `<div>` to serve as a container for individual membership blocks.
+
+For each membership type, set up a `<div>` 
+
+Add an `<img>` tag 
+
+Use a `<h2> `for the title of the membership package.
+
+Include a `<p>` tag for a brief description of what the membership offers.
+
+Place a `<button>` for registering
 
 
 
