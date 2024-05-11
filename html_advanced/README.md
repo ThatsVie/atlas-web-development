@@ -5,19 +5,56 @@ This project involves creating a webpage from scratch, based on a design file pr
 
 ## Learning Objectives
 
-### What is HTML
+### What is HTML?
+HTML (HyperText Markup Language) is the standard markup language used to create web pages. It structures the web content through the use of various elements which are denoted by tags. HTML is used to format text, create hyperlinks, insert images, forms, and other types of data, forming the building blocks of all websites.
 
-### How to create an HTML page from a wireframe
+In this project, the basic structure of an HTML document was established in **Task 1** with the use of tags like `<html>`, `<head>`, `<body>`, and later on with semantic elements like `<header>`, `<main>`, `<section>`, and `<footer>`.
 
-### What is a markup language
+### How do we create an HTML page from a wireframe?
 
-### What is the DOM
+Creating an HTML page from a wireframe involves interpreting a visual guide (the wireframe) that represents the skeletal framework of a webpage and translating it into HTML code. This includes laying out the structural elements, placing content blocks according to the design, and preparing the page for further styling and interactivity.
 
-### What is an element / tag
+**Task 4** involved creating a video list section as specified by the wireframe design, using elements like `<div>`, `<h1>`, `<img>`, and `<p>` to layout the section in accordance with the planned design.
 
-### What is an attribute
+### What is a markup language?
 
-### What the purpose of each HTML tag
+A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text. It uses tags to label pieces of content such as headings, paragraphs, and links, allowing devices to manipulate, and present the text. HTML is one of the most widely used markup languages for creating web pages and applications.
+
+Throughout your project, HTML was used as the markup language to create the structure of the webpage — defining headers, main content areas, and footers.
+
+### What is DOM?
+
+The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. Programming languages like JavaScript can interact with the page.
+
+In this project, when we structured the document with elements like `<header>`, `<section>`, and `<footer>`, the DOM turns each of these tags into nodes that can be accessed and manipulated via JavaScript.
+
+### What is an element / tag?
+
+In HTML, an **element** consists of a start tag, an end tag, the content in between, and the attributes of the tag. A **tag** is used to create an element and marks the start and end of an element content like `<h1>` to `</h1>`, indicating header text.
+
+In **Task 2**, the `<header>` element contains several other elements such as `<nav>`, `<a>`, and `<img>`, demonstrating how tags are used to create structured and nested elements.
+
+### What is an attribute?
+
+Attributes provide additional information about HTML elements. They are always specified in the start tag and usually consist of name/value pairs like name="value". Attributes are used for identifying unique elements, setting up links, adjusting images, etc.
+
+In **Task 7**, `<img src="logo.png" alt="Smile logo">` uses src and alt attributes. The src attribute specifies the path to the image file, while the alt attribute provides alternative text describing the image.
+
+### What is the purpose of each HTML tag?
+
+Each HTML tag has a specific purpose, usually related to the structure or function of the content. Semantic tags, such as `<header>`, `<footer>`, `<article>`, and `<section>`, indicate the role of the content in the overall context of the document.
+
+In **Task 6**, we created an FAQ section. The HTML tags used in this task and their specific purposes:
+
+`<section>`: Groups related content, marking the FAQ area as a significant section of the webpage.
+
+`<h1>`: Serves as the main title for the FAQ section, helping users and search engines understand the content's focus.
+
+`<div>`: Acts as a flexible container for structuring the FAQs into rows and individual items, important for layout organization.
+
+`<h2>`: Indicates the question within each FAQ item, structuring the content hierarchically under the main section heading.
+
+`<p>`: Provides the answers, detailing the information related to each question.
 
 ## Tasks
 
@@ -166,11 +203,26 @@ A `<p>` for the answer.
 
 Note: CSS styling will be applied in future tasks to achieve the "row" layout visually. This task focuses on having the HTML structure  in place for such styling. The description mentions two rows containing two items each, laid out to be visually structured in future CSS enhancements.
 
+### Task 7
+Implement a footer for the webpage.
 
+Footer Setup:
 
+Place the `<footer>` element directly after the `<main>` tag to ensure it is at the bottom of the webpage.
 
+Use a nested `<div>` structure within the footer to organize the content.
 
+Content Organization:
 
+The first `<div>` acts as a container for all footer content, facilitating future centering with CSS.
+
+Inside the container, include:
+
+An image. `<img>`
+
+A block for social media icons, each wrapped in <a> tags for navigation.
+
+A simple text element for copyright information. `<p>`
 
 
 
