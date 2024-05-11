@@ -1,4 +1,5 @@
 # HTML Advanced
+![Static Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 This project involves creating a webpage from scratch, based on a design file provided in [Figma](https://www.figma.com/file/XrEAsu1vQj5fhVaNG38d2W/Homepage?type=design&node-id=0-1&mode=design&t=odbpkpcMXB66kvTC-0). The focus of this project is to build a solid foundation in HTML by crafting an HTML structure without any CSS styling.
 
@@ -14,13 +15,13 @@ In this project, the basic structure of an HTML document was established in **Ta
 
 Creating an HTML page from a wireframe involves interpreting a visual guide (the wireframe) that represents the skeletal framework of a webpage and translating it into HTML code. This includes laying out the structural elements, placing content blocks according to the design, and preparing the page for further styling and interactivity.
 
-**Task 4** involved creating a video list section as specified by the wireframe design, using elements like `<div>`, `<h1>`, `<img>`, and `<p>` to layout the section in accordance with the planned design.
+**Task 4** involved creating a video list section as specified by the wireframe design, using elements like `<div>`, `<h1>`, `<img>`, and `<p>` to layout the section in accordance with the design.
 
 ### What is a markup language?
 
 A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text. It uses tags to label pieces of content such as headings, paragraphs, and links, allowing devices to manipulate, and present the text. HTML is one of the most widely used markup languages for creating web pages and applications.
 
-Throughout your project, HTML was used as the markup language to create the structure of the webpage — defining headers, main content areas, and footers.
+Throughout this project, HTML was used as the markup language to create the structure of the webpage defining headers, main content areas, and footers.
 
 ### What is DOM?
 
