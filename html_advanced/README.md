@@ -143,8 +143,28 @@ Include a `<p>` tag for a brief description of what the membership offers.
 
 Place a `<button>` for registering
 
+### Task 6
+Add a FAQ section towards the end of the webpage, just before the footer.  This section will be structured in a two-row format with each row containing two questions.
 
+Create the FAQ Section:
 
+Add new `<section>` element within the `<main>` element of the webpage.
+
+Include a `<h1>` tag at the beginning of this section to serve as the main heading, labeled "F.A.Q."
+
+Organize the Content:
+
+Add a container `<div>` within the section to hold all FAQ items.
+
+Use two `<div>` elements with a class of "row" inside the container to represent each row of FAQs.
+
+Within each row, place two `<div>` elements with a class of "item", each containing:
+
+A `<h2>` for the question.
+
+A `<p>` for the answer.
+
+Note: CSS styling will be applied in future tasks to achieve the "row" layout visually. This task focuses on having the HTML structure  in place for such styling. The description mentions two rows containing two items each, laid out to be visually structured in future CSS enhancements.
 
 
 
