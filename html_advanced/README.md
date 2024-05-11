@@ -32,7 +32,7 @@ Within the `<body>`, insert the `<header>` tag.
 
 The `<header>` should contain:
 
-A logo: Implement this as an `<a>` tag wrapping an `<img>` tag, where the `<a>` tag points to the homepage.
+A logo: Implement this as an `<a>` tag wrapping an `<img>` tag.
 
 Navigation links: Three `<a>` tags that serve as navigation. These should be wrapped in a block-level container, such as a `<nav>` or a `<div>`.
 
@@ -51,7 +51,7 @@ A `<h1>` heading for the main title.
 
 A `<p>` tag for a catchy phrase or slogan.
 
-A `<button>` for a call to action, such as registration or sign-up.
+A `<button>` for a call to action, such as registration.
 
 Secondary Content Block:
 
@@ -89,8 +89,36 @@ Provide a text tag (such as `<p>`) for the quote's author to attribute the quote
 Include additional descriptive text `<p>`
 
 
+### Task 4
+Create a section dedicated to showcasing a list of video tutorials. 
 
+Create a new `<section>` element within the `<main>` element to contain all video-related content.
 
+Include a `<h1>` heading at the start of the section to serve as the title of the video list, "Most Popular Tutorials."
+
+Video Blocks:
+
+For each video, create an `<div>` element that encapsulates all the details of the video.
+
+An `<img>` tag for the video's thumbnail, followed by a `<h2>` for the video's title.
+
+Add a `<p>` tag for a description of the video content.
+
+Author Information:
+
+Below the video description provide author details:
+
+Include an image of the author using an `<img>` tag.
+
+Use a `<h3>` tag for the author's name.
+
+Rating System:
+
+Create a rating display using a series of `<img>` tags, each representing a star.
+
+Each star image has an appropriate alt attribute for accessibility, "1 star", "2 stars", etc.
+
+Include additional text `<p>`
 
 
 
