@@ -86,7 +86,7 @@ Add a `<div>` containing:
 
 A `<h1>` heading for the main title.
 
-A `<p>` tag for a catchy phrase or slogan.
+A `<p>` tag for slogan.
 
 A `<button>` for registration.
 
@@ -115,9 +115,9 @@ Inside the `<section>`, place a `<div>` that will contain all elements related t
 
 Add an `<img>` tag related to the quote.
 
-Use a `<blockquote>` tag for encapsulating the quoted text, ensuring it is different from other textual content.
+Use a `<blockquote>` tag for encapsulating the quoted text.
 
-Provide a text tag (such as `<p>`) for the quote's author to attribute the quote properly.
+Provide a text tag (`<p>`) for the quote's author.
 
 Include additional descriptive text `<p>`
 
@@ -212,7 +212,4 @@ An image `<img>`
 A block for social media icons, each wrapped in <a> tags for navigation.
 
 A simple text element for copyright information. `<p>`
-
-
-
 
