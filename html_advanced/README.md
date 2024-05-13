@@ -62,6 +62,9 @@ In **Task 6**, we created an FAQ section. The HTML tags used in this task and th
 ### Task 1
 Create the basic structure of an HTML page and construct the header based on a provided wireframe.
 
+![f08f357fc2c894d821a29b7f907f26089ec68d86](https://github.com/ThatsVie/atlas-web-development/assets/143755961/9ddd2b3c-4466-4759-9077-1de89bf2f256)
+
+
 Start with the foundational HTML5 structure, which includes the `<!DOCTYPE html>` declaration, and the `<html>`, `<head>`, and `<body>` elements.
 
 Within the `<body>`, insert the `<header>` tag.
@@ -74,6 +77,8 @@ Navigation links: Three `<a>` tags that serve as navigation. These should be wra
 
 ### Task 2
 Enhance the header by adding a banner that includes multiple text and image elements. This task focuses on structuring content semantically within the header.
+
+![d3f0dba16af368a681919fb44306fadfb2499b54](https://github.com/ThatsVie/atlas-web-development/assets/143755961/1fdec0cb-f874-4a54-b612-7899787acd99)
 
 Inside the `<header>` tag, incorporate a `<section>` element to create a distinct banner area.
 
@@ -102,6 +107,8 @@ Below the `<header>`, insert a `<main>` element to separate the main content of 
 ### Task 3
 Incorporate a quote block below the banner within the `<main>` section of the webpage. 
 
+![e898eac85272d52f5528ea81678000045a37017a](https://github.com/ThatsVie/atlas-web-development/assets/143755961/535e9584-e8d0-4274-a76e-03dae3fbf942)
+
 Within the `<main>` element, add a new `<section>` tag for the quote.
 
 Inside the `<section>`, place a `<div>` that will contain all elements related to the quote.
@@ -116,7 +123,10 @@ Include additional descriptive text `<p>`
 
 
 ### Task 4
-Create a section dedicated to showcasing a list of video tutorials. 
+Create a section dedicated to a list of video tutorials. 
+
+![a5712ac70330c6812c6aee2bf21efe7ac53d1397](https://github.com/ThatsVie/atlas-web-development/assets/143755961/2f826243-c955-4548-9af0-30b913f54d94)
+
 
 Create a new `<section>` element within the `<main>` element to contain all video-related content.
 
@@ -143,6 +153,9 @@ Include additional text `<p>`
 ### Task 5
 Create a section showing membership options available at Smile School.
 
+![1ddf18bc6d89725de2fde4881e8990fae6d89628](https://github.com/ThatsVie/atlas-web-development/assets/143755961/5896963c-bf54-4102-8663-09ddf818fd38)
+
+
 After the videos list section in the `<main>` element, add a new `<section>` for memberships.
 
 Include a `<h1>` heading at the start of this section to serve as the title, "Free Membership."
@@ -162,6 +175,9 @@ Place a `<button>` for registering
 ### Task 6
 Add a FAQ section towards the end of the webpage, just before the footer.  This section will be structured in a two-row format with each row containing two questions.
 
+![e4b2806abe9edc126fa0d4155aaf5d7e7da479e4](https://github.com/ThatsVie/atlas-web-development/assets/143755961/9aef84ba-e4aa-4199-9773-30454d6c737d)
+
+
 Add new `<section>` element within the `<main>` element of the webpage.
 
 Include a `<h1>` tag at the beginning of this section to serve as the main heading, labeled "F.A.Q."
@@ -180,6 +196,8 @@ Note: CSS styling will be applied in the future to achieve the "row" layout visu
 
 ### Task 7
 Implement a footer for the webpage.
+
+![7224527ac842981b3b387cd9d713b4a1b912a487](https://github.com/ThatsVie/atlas-web-development/assets/143755961/7d843275-8580-47ca-8cb7-32726b4924b8)
 
 Place the `<footer>` element directly after the `<main>` tag to ensure it is at the bottom of the webpage.
 
