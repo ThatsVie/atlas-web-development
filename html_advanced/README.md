@@ -69,18 +69,18 @@ Start with the foundational HTML5 structure, which includes the `<!DOCTYPE html>
 
 Within the `<body>`, insert the `<header>` tag.
 
-The `<header>` should contain:
+The `<header>` contains:
 
-A logo: Implement this as an `<a>` tag wrapping an `<img>` tag.
+A clickable logo using `<a>` and `<img>` tags.
 
-Navigation links: Three `<a>` tags that serve as navigation. These should be wrapped in a block-level container, such as a `<nav>` or a `<div>`.
+Navigation links wrapped within a `<div>`
 
 ### Task 2
 Enhance the header by adding a banner that includes multiple text and image elements. This task focuses on structuring content semantically within the header.
 
 ![d3f0dba16af368a681919fb44306fadfb2499b54](https://github.com/ThatsVie/atlas-web-development/assets/143755961/1fdec0cb-f874-4a54-b612-7899787acd99)
 
-Inside the `<header>` tag, incorporate a `<section>` element to create a distinct banner area.
+Insert a `<section>` within the `<header>` to delineate the banner area.
 
 Add a `<div>` containing:
 
