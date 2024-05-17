@@ -7,3 +7,7 @@ This project involves creating a webpage from scratch, based on a design file pr
 
 
 To view a README.md file for HTML Advanced visit [this link.](https://github.com/ThatsVie/atlas-web-development/blob/main/html_advanced/README.md)
+
+## CSS Advanced
+![Static Badge](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+
