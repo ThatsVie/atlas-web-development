@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: Source sans pro;
+  background-image: url('./images/background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #08192f;
+}
