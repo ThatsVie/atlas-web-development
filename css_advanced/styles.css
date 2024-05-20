@@ -1,50 +1,60 @@
 body {
   margin: 0;
+  width: 1440px;
+  height: 3718px;
   background-color: #FFFFFF;
-  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-header {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 75%;
-  left: 175.67px;
-  height: 29.461px;
-  top: 40px;
-  z-index: 2;
+* {
+  box-sizing: border-box;
 }
 
-#headerContainer {
-  width: 100%;
-  height: 100%;
+/* Header Styles */
+.headerContainer {
+  width: 1103.41px;
+  height: 29.46px;
+  padding: 0px;
+  margin: 35.02px auto 0 auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 #logo {
-  width: 167.016px;
-  height: 29.461px;
-  flex-shrink: 0;
+  width: 167.02px;
+  height: 29.46px;
+  background: #FFFFFF;
 }
 
+#logo img {
+  width: 100%;
+  height: 100%;
+}
 
-#navigation {
+.menu {
+  width: 234px;
   height: 15px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  display: inline-flex;
-  gap: 52px;
+  display: flex;
+  justify-content: space-between;
 }
-#navigation a {
-  color: #FFF;
-  font-family: "Source Sans Pro";
+
+.menu a {
+  font-family: 'Source Sans Pro';
   font-size: 12px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 15.08px;
+  text-align: left;
   text-decoration: none;
+  color: #333;
+}
+
+/* Banner and Pros Section Styles */
+.mainPart {
+  width: 1440px;
+  height: 1093px;
+  text-align: center;
+  background: url('images/background.png') no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 0;
 }
