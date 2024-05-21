@@ -1,60 +1,636 @@
 body {
-  margin: 0;
-  width: 1440px;
-  height: 3718px;
+  margin: 0px;
   background-color: #FFFFFF;
-  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-/* Header Styles */
-.headerContainer {
-  width: 1103.41px;
-  height: 29.46px;
-  padding: 0px;
-  margin: 35.02px auto 0 auto;
+header {
+  flex-shrink: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 29.46px;
+  left: 171.59px;
+  position: absolute;
+  top: 40px;
+  z-index: 2;
+}
+
+.headerContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  flex-shrink: 0;
+  width: 167.02px;
+  height: 29.46px;
+}
+
+.menu {
+  flex-shrink: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  height: 15px;
+
+}
+
+.menu a {
+  color: #FFFFFF;;
+  font-family: 'Source Sans Pro';
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  line-height: normal
+}
+
+
+.mainPart {
+  flex-shrink: 0;
+  margin: 0;
+  width: 100%;
+  background: url('images/BackgroundC.png') center/cover no-repeat;
+  height: 1180px;
+  z-index: 1;  
+}
+
+.bannerContent {
+  height: 1180px;
+  width: 100%;
+  backdrop-filter: grayscale();
+  background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%)
+}
+
+.getSchooled {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+
+.getSchooled h1 {
+  font-size: 120px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  margin-top: 250px;
+  margin-bottom: 0px;
+}
+
+.getSchooled p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  word-spacing: 50px;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  line-height: normal;
+}
+
+.getSchooled button {
+  flex-shrink: 0;
+  margin-top: 40px;
+  width: 162px;
+  height: 44px;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  background-color: #C271FF;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+  border: #C271FF;
+  border-radius: 22px;
+}
+
+.prosBlocks {
+  flex-shrink: 0;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 237px;
+}
+
+.prosBlocks h2 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  margin-bottom: 87px;
+  font-style: normal;
+  line-height: normal;
+}
+
+
+.pros {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 237px;
+}
+
+.pro {
+  flex-shrink: 0;
+  width: 150px;
+  height: 237px;
+  flex-direction: column;
+}
+
+.pro img {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.pro h3 {
+  font-size: 18px;
+  font-weight: 900;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  width: 150px;
+  font-style: normal;
+  line-height: 27px;
+
+}
+
+.pro p {
+  font-size: 16px;
+  font-style: italic;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.purple {
+  color: #C271FF;
+}
+
+
+#testimonial {
+  flex-shrink: 0;
+  display: flex;
+  background-color: #C271FF;
+  width: 100%;
+  height: 392px;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.quoteBlock {
+  flex-shrink: 0;
+  display: flex;
+  width: 943px;
+  height: 160px;
+  justify-content: space-between;
+}
+
+.quoteBlock img {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.quote {
+  flex-shrink: 0;
+  padding: 0;
+  width: 730px;
+  height: 158px;
+}
+
+.quote blockquote {
+  width: 730px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.3px
+  color: #FFFFFF;
+  font-family: "Source Sans Pro";
+  margin: 0;
+}
+
+
+/* Popular Tutorials Section */
+.popularTutorials {
+  height: 550px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorials {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  height: 450px;
+}
+
+.tutorials h1 {
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 7px;
+  color: #071629;
+  text-align: center;
+}
+
+.tutorials .purple {
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  color: #C271FF;
+  font-family: "Source Sans Pro";
+ }
+
+.tutorialPart {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.tutorialItem {
+  flex-shrink: 0;
+  height: 335px;
+  width: 255px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
+  border-radius: 5px;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.tutorialItem h2 {
+  color: #071629;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+.tutorialItem p {
+  color: rgba(7, 22, 41, 0.50);
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 24px;
+  padding-left: 10px;
+}
+
+.Diagonal {
+  flex-shrink: 0;
+  width: 255px;
+  height: 154px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('images/DiagonalSmile.png');
+  border-radius: 5px 5px 0px 0px;
+  background: #D8D8D8;
+  z-index: 2;
+}
+
+.Sad {
+  flex-shrink: 0;
+  width: 255px;
+  height: 154px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/SadSmile.png) center/cover no-repeat;
+  border-radius: 5px 5px 0px 0px;
+  background: #D8D8D8;
+}
+
+.Natural {
+  flex-shrink: 0;
+  width: 255px;
+  height: 154px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/NaturalSmile.png) center/cover no-repeat;
+  border-radius: 5px 5px 0px 0px;
+  background: #D8D8D8;
+}
+
+.Happy {
+  flex-shrink: 0;
+  width: 255px;
+  height: 154px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/HappySmile.png) center/cover no-repeat;
+  border-radius: 5px 5px 0px 0px;
+  background: #D8D8D8;
+}
+
+.rating {
+  flex-wrap: wrap;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.author img {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.rating h3 {
+  color: #C271FF;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 27px;
+}
+
+.stars {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  gap: 70px;
+}
+.stars p {
+  color: #C271FF;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: right;
+}
+.starRating {
+  flex-shrink: 0;
+  width: 107px;
+  height: 15px;
+}
+
+.membership {
+  background-color: #071629;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 502px;
   justify-content: space-between;
   align-items: center;
 }
 
-#logo {
-  width: 167.02px;
-  height: 29.46px;
-  background: #FFFFFF;
+.membership h1 {
+  color: #FFFFFF;
+  margin-top: 70px;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: normal;
 }
 
-#logo img {
+.membership .purple {
+  color: #C271FF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+}
+
+.membershipOptions {
+  display: flex;
+}
+
+.membershipItem {
+  flex-shrink: 0;
+  width: 257px;
+  height: 153px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.membershipItem img {
+  flex-shrink: 0;
+  width: 43.66px;
+  height: 35.35px;
+}
+
+.membershipItem h2 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  line-height: 26px;
+  width: 256px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.membershipItem p {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  line-height: 26px;
+  width: 212px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.membership button {
+  flex-shrink: 0;
+  width: 162px;
+  height: 44px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  font-style: normal;
+  margin-bottom: 52px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+  background-color: #C271FF;
+  border: #C271FF;
+  border-radius: 22px;
+}
+
+.faq {
+  display: flex;
+  height: 850px;
   width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq h1 {
+  color: #071629;
+  font-family: "Source Sans Pro";
+  margin-top: 67px;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  font-style: normal;
+  line-height: normal;
+}
+
+#faqContainer {
+  flex-shrink: 0;
+  width: 920px;
   height: 100%;
 }
 
-.menu {
-  width: 234px;
-  height: 15px;
+.faqItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.row {
   display: flex;
   justify-content: space-between;
 }
 
-.menu a {
-  font-family: 'Source Sans Pro';
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 15.08px;
-  text-align: left;
-  text-decoration: none;
-  color: #333;
+.item {
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-/* Banner and Pros Section Styles */
-.mainPart {
-  width: 1440px;
-  height: 1093px;
+.item h2 {
+  color: #071629;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+}
+
+.item p {
+  color: #071629;;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 350px;
+  font-style: normal;
+}
+
+footer {
+  flex-shrink: 0;
+  display: flex;
+  background-color: #071629;
+  width: 100%;
+  height: 249px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerContainer {
+  display: flex;
+  height: 50%;
+  width: 75%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerLogoSocial {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.socialIcons {
+  flex-shrink: 0;
+  display: flex;
+  width: 130px;
+  height: 30px;
+  justify-content: space-between;
+}
+
+.socialIcons a {
+  width: 30px;
+  height: 30px;
+}
+
+.footerContainer p {
+  color: #FFFFFF;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  opacity: 0.35;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
   text-align: center;
-  background: url('images/background.png') no-repeat center center/cover;
-  color: #fff;
-  padding: 100px 0;
+}
+
+#footerLogo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  padding: 0.02px 0px 0.51px 0.59px;
+}
+
+* {
+  box-sizing: border-box;
 }
