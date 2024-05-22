@@ -205,6 +205,7 @@ header {
   padding: 0;
   width: 730px;
   height: 158px;
+  color: #FFFFFF
 }
 
 .quote blockquote {
@@ -213,7 +214,6 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: 33.3px
-  color: #FFFFFF;
   font-family: "Source Sans Pro";
   margin: 0;
 }
