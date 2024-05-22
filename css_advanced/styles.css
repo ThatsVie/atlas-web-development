@@ -45,9 +45,9 @@ header {
 }
 
 
-.mainPart {
+/*.mainPart {
 
-}
+} */
 
 .bannerContent {
   /*height: 1180px;
@@ -61,7 +61,6 @@ header {
   align-items: center;
   display: flex;
 }
-
 
 .getSchooled h1 {
   font-size: 120px;
@@ -125,7 +124,6 @@ header {
   font-style: normal;
   line-height: normal;
 }
-
 
 .pros {
   flex-shrink: 0;
@@ -221,7 +219,6 @@ header {
 }
 
 
-/* Popular Tutorials Section */
 .popularTutorials {
   height: 550px;
   width: 100%;
@@ -231,7 +228,6 @@ header {
 }
 
 .tutorials {
-  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -274,7 +270,6 @@ header {
   box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
   border-radius: 5px;
   flex-direction: column;
-  z-index: 1;
 }
 
 .tutorialItem h2 {
@@ -322,7 +317,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(images/SadSmile.png) center/cover no-repeat;
+  background-image: url(images/SadSmile.png);
   border-radius: 5px 5px 0px 0px;
   background: #D8D8D8;
 }
@@ -335,7 +330,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(images/NaturalSmile.png) center/cover no-repeat;
+  background-image: url(images/NaturalSmile.png);
   border-radius: 5px 5px 0px 0px;
   background: #D8D8D8;
 }
@@ -348,7 +343,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(images/HappySmile.png) center/cover no-repeat;
+  background-image: url(images/HappySmile.png);
   border-radius: 5px 5px 0px 0px;
   background: #D8D8D8;
 }
@@ -488,7 +483,7 @@ header {
   line-height: normal;
   font-style: normal;
   margin-bottom: 52px;
-  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
   background-color: #C271FF;
   border: #C271FF;
   border-radius: 22px;
