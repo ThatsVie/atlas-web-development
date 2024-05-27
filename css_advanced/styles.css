@@ -500,7 +500,7 @@ header {
   line-height: normal;
 }
 
-#faqContainer {
+.faqContainer {
   flex-shrink: 0;
   width: 920px;
   height: 100%;
@@ -517,6 +517,7 @@ header {
 .row {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .item {
@@ -538,7 +539,7 @@ header {
 }
 
 .item p {
-  color: #071629;;
+  color: #071629;
   font-family: "Source Sans Pro";
   font-size: 14px;
   font-weight: 400;
