@@ -2,7 +2,7 @@ body {
   margin: 0px;
   background-color: #FFFFFF;
   width: 100%;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
@@ -10,14 +10,16 @@ header {
   margin: 0;
   width: 100%;
   background: url('images/background.png') center/cover no-repeat;
-  height: 1180px; 
+  height: 1300px; 
 }
 
-.headerContainer {
+.navigation {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 75%;
+  margin: 0 auto;
+  padding-top: 35px;
 }
 
 #logo {
@@ -27,21 +29,15 @@ header {
 
 .menu {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 52px;
-  height: 15px;
 
 }
 
 .menu a {
   color: #FFFFFF;;
-  font-family: 'Source Sans Pro';
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
-  font-style: normal;
-  line-height: normal
 }
 
 .getSchooled {
