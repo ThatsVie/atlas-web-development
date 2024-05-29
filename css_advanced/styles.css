@@ -6,7 +6,6 @@ body {
 }
 
 header {
-  flex-shrink: 0;
   margin: 0;
   width: 100%;
   background: url('images/background.png') center/cover no-repeat;
@@ -89,7 +88,6 @@ header {
 }
 
 .prosBlocks {
-  flex-shrink: 0;
   margin-top: 250px;
   display: flex;
   flex-direction: column;
@@ -109,6 +107,15 @@ header {
   font-style: normal;
   line-height: normal;
 }
+
+.prosBlocks .purple {
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  color: #C271FF;
+  font-family: "Source Sans Pro";
+ }
 
 .pros {
   flex-shrink: 0;
@@ -160,7 +167,6 @@ header {
 
 
 #testimonial {
-  flex-shrink: 0;
   display: flex;
   background-color: #C271FF;
   width: 100%;
@@ -548,7 +554,6 @@ header {
 }
 
 footer {
-  flex-shrink: 0;
   display: flex;
   background-color: #071629;
   width: 100%;
@@ -604,6 +609,3 @@ footer {
   padding: 0.02px 0px 0.51px 0.59px;
 }
 
-* {
-  box-sizing: border-box;
-}
