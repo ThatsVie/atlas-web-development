@@ -53,7 +53,7 @@ Example from the project:
 
 ![image](https://github.com/ThatsVie/atlas-web-development/assets/143755961/27c2975e-2ca2-4f02-b893-597e134f8cca)
 
-The ID selector (#logo) has a higher specificity than the class selector (.menu a), so it will take precedence if there is a conflict.
+The ID selector `#logo` has a higher specificity than the class selector `.menu a`, so it will take precedence if there is a conflict.
 
 ### What are Box Properties in CSS
 
@@ -67,19 +67,19 @@ In this example, the `tutorialItem` class has box properties such as height, wid
 
 ### How Does the Browser Load a Webpage
 
-The browser loads a webpage by performing several steps:
+1. The browser loads a webpage by performing several steps:
 
-Resolves the domain name to an IP address.
+2. Resolves the domain name to an IP address.
 
-Sends an HTTP request to the server hosting the webpage.
+3. Sends an HTTP request to the server hosting the webpage.
 
-Downloads and parses the HTML document.
+5. Downloads and parses the HTML document.
 
-Downloads linked resources such as CSS, JavaScript, and images.
+6. Downloads linked resources such as CSS, JavaScript, and images.
 
-Parses CSS and applies styles to the HTML elements.
+7. Parses CSS and applies styles to the HTML elements.
 
-Constructs the DOM (Document Object Model) and CSSOM (CSS Object Model), then renders the webpage visually.
+8. Constructs the DOM (Document Object Model) and CSSOM (CSS Object Model), then renders the webpage visually.
 
 
-In this project, when the Smile School webpage is loaded, the browser requests and parses the index.html file, followed by fetching and applying the styles defined in styles.css, and renders the structured content with applied styles.
+In this project, when the Smile School webpage is loaded, the browser requests and parses the `index.html` file, followed by fetching and applying the styles defined in `styles.css`, and renders the structured content with applied styles.
