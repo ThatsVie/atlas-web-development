@@ -49,11 +49,8 @@ header {
 .getSchooled h1 {
   font-size: 120px;
   font-weight: 700;
-  font-style: normal;
-  line-height: normal;
   color: #FFFFFF;
   text-align: center;
-  font-family: "Source Sans Pro";
   margin-top: 250px;
   margin-bottom: 0px;
 }
@@ -64,9 +61,6 @@ header {
   color: #FFFFFF;
   word-spacing: 50px;
   text-align: center;
-  font-family: "Source Sans Pro";
-  font-style: normal;
-  line-height: normal;
 }
 
 .getSchooled button {
@@ -75,13 +69,11 @@ header {
   width: 162px;
   height: 44px;
   text-align: center;
-  font-family: "Source Sans Pro";
   background-color: #C271FF;
   color: #FFFFFF;
   font-size: 14px;
   font-weight: 600;
-  font-style: normal;
-  line-height: normal;
+  font-family: 'Source Sans Pro';
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
   border: #C271FF;
   border-radius: 22px;
@@ -104,17 +96,11 @@ header {
   text-align: center;
   font-family: "Source Sans Pro";
   margin-bottom: 87px;
-  font-style: normal;
-  line-height: normal;
 }
 
 .prosBlocks .purple {
-  font-size: 32px;
   font-weight: 700;
-  font-style: normal;
-  line-height: normal;
   color: #C271FF;
-  font-family: "Source Sans Pro";
  }
 
 .pros {
@@ -126,10 +112,8 @@ header {
 }
 
 .pro {
-  flex-shrink: 0;
   width: 150px;
   height: 237px;
-  flex-direction: column;
 }
 
 .pro img {
@@ -228,21 +212,16 @@ header {
 }
 
 .tutorials h1 {
-  font-family: "Source Sans Pro";
   font-size: 32px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
   margin-top: 7px;
   color: #071629;
   text-align: center;
+  font-family: "Source Sans Pro";
 }
 
 .tutorials .purple {
-  font-size: 32px;
   font-weight: 700;
-  font-style: normal;
-  line-height: normal;
   color: #C271FF;
   font-family: "Source Sans Pro";
  }
@@ -259,15 +238,12 @@ header {
   width: 255px;
   background: #FFFFFF;
   border-radius: 5px;
-  flex-direction: column;
 }
 
 .tutorialItem h2 {
   color: #071629;
   font-family: "Source Sans Pro";
   font-size: 16px;
-  font-style: normal;
-  line-height: normal;
   font-weight: 700;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -279,7 +255,6 @@ header {
   font-family: "Source Sans Pro";
   font-size: 14px;
   font-weight: 400;
-  font-style: normal;
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: 24px;
@@ -287,7 +262,6 @@ header {
 }
 
 .Diagonal {
-  flex-shrink: 0;
   width: 255px;
   height: 154px;
   position: relative;
@@ -297,11 +271,9 @@ header {
   background: url('images/DiagonalSmile.png');
   border-radius: 5px 5px 0px 0px;
   background: #D8D8D8;
-  z-index: 2;
 }
 
 .Sad {
-  flex-shrink: 0;
   width: 255px;
   height: 154px;
   position: relative;
@@ -314,7 +286,6 @@ header {
 }
 
 .Natural {
-  flex-shrink: 0;
   width: 255px;
   height: 154px;
   position: relative;
@@ -327,7 +298,6 @@ header {
 }
 
 .Happy {
-  flex-shrink: 0;
   width: 255px;
   height: 154px;
   position: relative;
@@ -409,8 +379,6 @@ header {
   font-family: "Source Sans Pro";
   font-size: 32px;
   font-weight: 300;
-  font-style: normal;
-  line-height: normal;
 }
 
 .membership .purple {
@@ -419,8 +387,6 @@ header {
   font-family: "Source Sans Pro";
   font-size: 32px;
   font-weight: 700;
-  font-style: normal;
-  line-height: normal;
 }
 
 .membershipOptions {
@@ -452,7 +418,6 @@ header {
   line-height: 26px;
   width: 256px;
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
 }
 
@@ -463,7 +428,6 @@ header {
   line-height: 26px;
   width: 212px;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
 }
 
@@ -476,8 +440,6 @@ header {
   font-family: "Source Sans Pro";
   font-size: 14px;
   font-weight: 600;
-  line-height: normal;
-  font-style: normal;
   margin-bottom: 52px;
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
   background-color: #C271FF;
@@ -501,8 +463,6 @@ header {
   font-size: 60px;
   font-weight: 300;
   text-align: center;
-  font-style: normal;
-  line-height: normal;
 }
 
 .faqContainer {
@@ -539,8 +499,6 @@ header {
   font-family: "Source Sans Pro";
   font-size: 16px;
   font-weight: 700;
-  font-style: normal;
-  line-height: normal;
 }
 
 .item p {
@@ -550,7 +508,6 @@ header {
   font-weight: 400;
   line-height: 24px;
   width: 350px;
-  font-style: normal;
 }
 
 footer {
@@ -596,8 +553,6 @@ footer {
   font-size: 12px;
   opacity: 0.35;
   font-weight: 400;
-  font-style: normal;
-  line-height: normal;
   text-align: center;
 }
 
