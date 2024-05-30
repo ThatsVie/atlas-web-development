@@ -271,7 +271,6 @@ header {
   background: url('images/DiagonalSmile.png');
   border-radius: 5px 5px 0px 0px;
   background: #D8D8D8;
-  z-index: 2;
 }
 
 .Sad {
@@ -500,8 +499,6 @@ header {
   font-family: "Source Sans Pro";
   font-size: 16px;
   font-weight: 700;
-  font-style: normal;
-  line-height: normal;
 }
 
 .item p {
@@ -511,7 +508,6 @@ header {
   font-weight: 400;
   line-height: 24px;
   width: 350px;
-  font-style: normal;
 }
 
 footer {
@@ -557,8 +553,6 @@ footer {
   font-size: 12px;
   opacity: 0.35;
   font-weight: 400;
-  font-style: normal;
-  line-height: normal;
   text-align: center;
 }
 
