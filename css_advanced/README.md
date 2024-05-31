@@ -26,7 +26,7 @@ In the `styles.css` file, the styling for the header element is defined:
 
 ### What is a Class
 
-A class is a reusable style definition in CSS that can be applied to multiple HTML elements. Classes are defined with a . (period) prefix and can be assigned to elements using the class attribute.
+A class is a reusable style definition in CSS that can be applied to multiple HTML elements. Classes are defined with a `.` prefix and can be assigned to elements using the class attribute.
 
 Example:
 
