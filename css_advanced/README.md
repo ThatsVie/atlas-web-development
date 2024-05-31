@@ -8,32 +8,32 @@ The CSS Advanced project is an extension of the previous HTML Advanced project. 
 ### What is CSS
 CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. CSS controls the layout, colors, fonts, and overall visual styling of web pages.
 
-In this project, we used CSS to style the Smile School website. The styles.css file contains rules that define the appearance of elements such as headers, menus, sections, and buttons.
+In this project, we used CSS to style the Smile School website. The `styles.css` file contains rules that define the appearance of elements such as headers, menus, sections, and buttons.
 
 ### How to Add Style to an Element
 
 To add style to an element, you can create CSS rules in an external stylesheet, an internal `<style>` tag within the HTML file, or directly inline using the style attribute.
 
-Example from the project:
+Example:
 
 ![image](https://github.com/ThatsVie/atlas-web-development/assets/143755961/1bb50032-8724-4eca-9225-6f4c910f109e)
 
 
-In the styles.css file, the styling for the header element is defined:
+In the `styles.css` file, the styling for the header element is defined:
 
 ![image](https://github.com/ThatsVie/atlas-web-development/assets/143755961/508444fb-08b2-4eca-a92f-f2a9f8022964)
 
 
 ### What is a Class
 
-A class is a reusable style definition in CSS that can be applied to multiple HTML elements. Classes are defined with a . (dot) prefix and can be assigned to elements using the class attribute.
+A class is a reusable style definition in CSS that can be applied to multiple HTML elements. Classes are defined with a . (period) prefix and can be assigned to elements using the class attribute.
 
-Example from the project:
+Example:
 
 ![image](https://github.com/ThatsVie/atlas-web-development/assets/143755961/0e05c01f-ce66-403f-bb29-6f85feff6199)
 
 
-In the styles.css file, the styling for the getSchooled class is defined:
+In the `styles.css` file, the styling for the `getSchooled` class is defined:
 
 ![image](https://github.com/ThatsVie/atlas-web-development/assets/143755961/23389650-9a9c-45a7-b45a-1d9cb96fc959)
 
@@ -42,14 +42,14 @@ In the styles.css file, the styling for the getSchooled class is defined:
 
 A selector in CSS is a pattern used to select elements on a web page that you want to style. There are various types of selectors, including element selectors, class selectors, ID selectors, and attribute selectors.
 
-Example from the project:
+Example:
 
 ![image](https://github.com/ThatsVie/atlas-web-development/assets/143755961/4d606e3c-0067-4093-861e-21ae90af2990)
 
 ### How to Compute CSS Specificity Value
 CSS specificity determines which CSS rule is applied when multiple rules match the same element. Specificity is calculated based on the number and types of selectors used in the rule.
 
-Example from the project:
+Example:
 
 ![image](https://github.com/ThatsVie/atlas-web-development/assets/143755961/27c2975e-2ca2-4f02-b893-597e134f8cca)
 
@@ -59,7 +59,7 @@ The ID selector `#logo` has a higher specificity than the class selector `.menu 
 
 Box properties in CSS define the layout and spacing of elements. These properties include margin, padding, border, and content.
 
-Example from the project:
+Example:
 
 ![image](https://github.com/ThatsVie/atlas-web-development/assets/143755961/1c33947a-aa09-4dbd-8332-33ffbdc730c2)
 
